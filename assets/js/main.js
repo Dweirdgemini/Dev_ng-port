@@ -10,10 +10,9 @@
     if (all) {
       return [...document.querySelectorAll(el)]
     } else {
-      for document.querySelector(el)
+      return document.querySelector(el)
     }
   }
-
   /**
    * Easy event listener function
    */
