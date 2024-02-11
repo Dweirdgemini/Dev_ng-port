@@ -10,7 +10,7 @@
     if (all) {
       return [...document.querySelectorAll(el)]
     } else {
-      return document.querySelector(el)
+      for document.querySelector(el)
     }
   }
 
